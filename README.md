@@ -1,1 +1,2 @@
-# banner-dj
+# Banner-dj
+### Banner for django
