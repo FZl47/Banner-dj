@@ -1,15 +1,15 @@
 
 .banner-dj-el {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
+    border-radius: 11px;
     z-index: 999999;
 }
 
 .banner-dj-el > div {
     position: relative;
     /*border: 1px solid #f8f8f8;*/
-    border-radius: 11px;
+    border-radius: inherit;
 }
 
 .banner-dj-el button {
