@@ -30,12 +30,20 @@ class BannerStyle(models.Model):
         ('bottom','Bottom'),
     )
 
+    IMAGE_FIT_OPTIONS = (
+        ('unset','Unset'),
+        ('cover','Cover'),
+        ('contain','Contain'),
+    )
+
     name = models.CharField(max_length=100)
-    float = models.BooleanField(default=True)
     align_vertical = models.CharField(max_length=15,choices=ALIGN_VERTICAL_OPTIONS)
     align_horizontal = models.CharField(max_length=15,choices=ALIGN_HORIZONTAL_OPTIONS)
     width = models.CharField(max_length=10,default='auto',help_text='You can set "auto" or percentage like "50%" or pixle like "200px" value')
     height = models.CharField(max_length=10,default='auto',help_text='You can set "auto" or percentage like "50%" or pixle like "200px" value')
+    width_smallsize = models.CharField(max_length=10,default='auto',help_text='You can set "auto" or percentage like "50%" or pixle like "200px" value')
+    height_smallsize = models.CharField(max_length=10,default='auto',help_text='You can set "auto" or percentage like "50%" or pixle like "200px" value')
+    image_fit = models.CharField(max_length=10,default='unset',choices=IMAGE_FIT_OPTIONS)
 
     def __str__(self):
         return self.name

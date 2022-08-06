@@ -1,10 +1,12 @@
 def BannerStyleSerializer(style):
     return {
-        'float': style.float,
         'align_vertical': style.align_vertical,
         'align_horizontal': style.align_horizontal,
         'width': style.width,
-        'height': style.height
+        'height': style.height,
+        'width_smallsize': style.width_smallsize,
+        'height_smallsize': style.height_smallsize,
+        'image_fit': style.image_fit,
     }
 
 
