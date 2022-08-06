@@ -1,6 +1,6 @@
 
 .banner-dj-el {
-    position: absolute;
+    position: fixed;
     text-align: center;
     border-radius: 11px;
     z-index: 999999;
