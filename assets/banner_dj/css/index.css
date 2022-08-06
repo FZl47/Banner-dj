@@ -3,6 +3,7 @@
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
+    z-index: 999999;
 }
 
 .banner-dj-el > div {
