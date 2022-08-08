@@ -15,7 +15,7 @@ def index(request):
     context = {}
     status_code = 0
     url = data.get('url')
-    page = Page.objects.filter(url__icontains=url).last()
+    page = Page.objects.filter(url=url).last()
     if page:
         status_code = 200
         context = {
