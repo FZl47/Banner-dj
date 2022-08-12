@@ -1,2 +1,2 @@
 # Banner-dj
-### Banner for django
+### Banner ADS for django
