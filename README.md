@@ -12,19 +12,27 @@
   path('',include('Banner_dj.urls')),
 ```
 4. اجرای دستور **migrate**
-5.  افزودن ادرس دامنه به تمپلیت خود به این صورت :
-```javascript 
+5. افزودن فایل های css و fontawesome برای استفاده از استایل ها و ایکون ها :
+```html
+  <link rel="stylesheet" href="{% static 'banner_dj/css/index.css' %}">
+    <!--  یا ادرس فایل را به صورت مستقیم وارد کنید -->
+  <link rel="stylesheet" href="Address File index.css Banner-Dj">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+```
+6.  افزودن ادرس دامنه به تمپلیت خود به این صورت :
+```html 
 <script>
     const BACKEND_URL_BANNER_DJ = 'http://127.0.0.1:8000'
 </script>
 ```
-6. افزودن فایل جاوااسکریپت به تمپلیت خود به این صورت :
-```javascript
+7. افزودن فایل جاوااسکریپت به تمپلیت خود به این صورت :
+```html
   <script src="{% static 'banner_dj/js/index.js' %}"></script>
-  //      یا ادرس فایل را به صورت مستقیم وارد کنید 
+    <!--  یا ادرس فایل را به صورت مستقیم وارد کنید --> 
   <script src="Address File index.js Banner-Dj"></script>
 ```
-7. ایجاد آبجکت های خود و استفاده از آن
+8. ایجاد آبجکت های خود و استفاده از آن
 - Page : برای تعریف آدرس یک صفحه که بنر در ان نمایش داده شود
 - Banner Style :  برای نمایش بنر در حالت ها و سایز های مختلف
 - Banner : ابجکت اصلی که در ان میتوانید مشخصات بنر خود را وارد کنید
