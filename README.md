@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="{% static 'banner_dj/css/index.css' %}">
     <!--  یا ادرس فایل را به صورت مستقیم وارد کنید -->
   <link rel="stylesheet" href="Address File index.css Banner-Dj">
-   <! -- CDN fontawsome for use icons -->
+   <!-- CDN fontawsome for use icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 ```
 6.  افزودن ادرس دامنه به تمپلیت خود به این صورت :
