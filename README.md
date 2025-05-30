@@ -1,43 +1,76 @@
-# Banner-dj
-### Banner ADS for django
-## بنر تبلیغاتی
+# DJ Banner
 
-![Banner-Dj](https://s6.uupload.ir/files/pizzle_-_google_chrome_8_13_2022_9_28_21_pm_(2)_lwvq.png)
+## 🌟 Slick Banner Ads for Django
 
-#### نحوه استفاده
-1. اضافه کردن اپ به پروژه خود و ثبت ان در **INSTALLED_APPS**
-2. اضافه کردن فایل های استاتیک به پروژه خود
-3. اضافه کردن urls به روت  (فایل urls اصلی) به این صورت :
- ```python
-  path('',include('Banner_dj.urls')),
-```
-4. اجرای دستور **migrate**
-5. افزودن فایل های css و fontawesome برای استفاده از استایل ها و ایکون ها :
-```html
-  <link rel="stylesheet" href="{% static 'banner_dj/css/index.css' %}">
-    <!--  یا ادرس فایل را به صورت مستقیم وارد کنید -->
-  <link rel="stylesheet" href="Address File index.css Banner-Dj">
-   <!-- CDN fontawsome for use icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-```
-6.  افزودن ادرس دامنه به تمپلیت خود به این صورت :
-```html 
-<script>
-    const BACKEND_URL_BANNER_DJ = 'http://127.0.0.1:8000'
-</script>
-```
-7. افزودن فایل جاوااسکریپت به تمپلیت خود به این صورت :
-```html
-  <script src="{% static 'banner_dj/js/index.js' %}"></script>
-    <!--  یا ادرس فایل را به صورت مستقیم وارد کنید --> 
-  <script src="Address File index.js Banner-Dj"></script>
-```
-8. ایجاد آبجکت های خود و استفاده از آن
-- Page : برای تعریف آدرس یک صفحه که بنر در ان نمایش داده شود
-- Banner Style :  برای نمایش بنر در حالت ها و سایز های مختلف
-- Banner : ابجکت اصلی که در ان میتوانید مشخصات بنر خود را وارد کنید
+#### How to Get Started
+
+- ### in first step you need to install `dj_banner`
+     ```commandline
+       pip install dj_banner
+    ```
+
+- ### *add* `dj_banner` app to `INSTALLED_APPS`
+  ```python
+    # config.settings.py
+    INSTALLED_APPS = [
+      ...
+      'dj_banner',
+      ...
+  ]
+   ```
+- ### *add*  urls to `setting urls`
+   ```python
+  # config.urls.py
+  urlpatterns = [
+    ...
+    path('', include('dj_banner.urls')),
+    ...
+  ]
+  ```
+- ### *add* static directory in settings static
+  ```python
+  # config.settings.py
+  STATICFILES_DIRS = [
+    ...
+    'dj_banner/static',
+    ...
+  ]
+  ```
+
+
+- ### **run migrate command**
+  ```commandline
+    python manage.py migrate
+  ```
+  
+- ### setup and load static files in base template
+  - add styles
+    ```html
+    <link rel="stylesheet" href="{% static 'dj_banner/css/index.css' %}">
+    <!-- Or just hardcode the file path -->
+    <link rel="stylesheet" href="Path/to/your/index.css">
+    ```
+  - add scripts
+      ```html
+    <script src="{% static 'dj_banner/js/index.js' %}"></script>
+    <!-- Or point directly to the JS file -->
+    <script src="Path/to/your/index.js"></script>
+    ```
+  - set backend address: Add the domain URL to your template like this
+
+    ```html
+    <script>
+        const DJ_BANNER_BACKEND_URL = 'YOUR_BACKEND_ADDRESS' // local(default): http://127.0.0.1:8000
+    </script>
+    ```
+
+
+- **Create Your Objects by DJANGO ADMIN**: Build and customize your banner setup:
+  - **Page**: Define the page where your banner will pop up.
+  - **Banner Style**: Pick different styles and sizes for your banner.
+  - **Banner**: The main object where you set all your banner details.
 
 ---
-**نکته** 📝 
-#####  سایز در نظر گرفته شده برای سایز کوچک در مدل _Banner Style_ برابر با _768px_ است , که میتوانید مقدار ان را در فایل _index.js_ به دلخواه خود تغییر دهید (:
----
+
+**Tip** 📝\
+The default small size for *Banner Style* is set to **768px**, but you can tweak it in the `index.js` file to whatever vibe you’re going for :)

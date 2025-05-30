@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9dc9493-5d48-47b2-80a9-b67cae8dd549" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1275d77d-1e7e-46e9-8673-2cd2e04db21a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1275d77d-1e7e-46e9-8673-2cd2e04db21a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dj_banner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dj_banner.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/migrations/0002_auto_20220806_0134.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/migrations/0003_auto_20220806_0136.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/migrations/0004_remove_bannerstyle_float.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/migrations/0005_bannerstyle_image_fit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/migrations/0006_auto_20220806_1721.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_banner/templates/dj_banner/sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/templates/dj_banner/sample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dj_banner/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dj_banner/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dj_banner/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dj_banner/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
