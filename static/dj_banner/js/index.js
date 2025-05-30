@@ -4,7 +4,6 @@ chanageSizeWindowQueryBanner(media_query_smallsize_banner)
 media_query_smallsize_banner.addListener(chanageSizeWindowQueryBanner)
 
 
-
 function GetBannerDJListHide() {
     return _GetCookieByName('banner-dj-list-hide')
 }
@@ -23,7 +22,7 @@ function _Banner_dj_init() {
     let data = {
         'url': window.location.pathname
     }
-    fetch(`${BACKEND_URL_BANNER_DJ}/banner-dj`, {
+    fetch(`${BACKEND_URL_BANNER_DJ}/dj-banner`, {
         method: 'POST',
         body: JSON.stringify(data)
     }).then(function (response) {
@@ -42,8 +41,6 @@ function _Banner_dj_init() {
     })
 
 }
-
-_Banner_dj_init()
 
 
 function CREATE_BANNER_DJ(banner) {
@@ -103,7 +100,7 @@ function CREATE_BANNER_DJ(banner) {
     banner_element.innerHTML = `
         <div>
             <button title="close" onclick="HideBannerDJ('${banner.id}')">
-                <i class="fa fa-minus"></i>
+                <i class="fa fa-minus">&#xf068;</i>
             </button>
             <img src="${banner.image}" alt="${banner.name}" title="${banner.name}" onclick="GoToUrlBanner('${banner.id}')" banner-id="${banner.id}" style="${style_image}">
             <a href="${banner.href}" target="_blank" hidden></a>
@@ -114,7 +111,7 @@ function CREATE_BANNER_DJ(banner) {
 }
 
 function GoToUrlBanner(banner_id) {
-    fetch(`${BACKEND_URL_BANNER_DJ}/banner-dj/click`, {
+    fetch(`${BACKEND_URL_BANNER_DJ}/dj-banner/click`, {
         method: 'POST',
         body: JSON.stringify({'banner_id': banner_id}),
     }).then(function (response) {
@@ -172,3 +169,5 @@ function chanageSizeWindowQueryBanner(x) {
     }
 }
 
+
+_Banner_dj_init()

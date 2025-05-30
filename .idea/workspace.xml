@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f69904a-dda5-4207-9c43-de610f7f4c56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Banner_dj/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/migrations/0002_auto_20220806_0134.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/migrations/0002_auto_20220806_0134.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/migrations/0003_auto_20220806_0136.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/migrations/0003_auto_20220806_0136.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/migrations/0004_remove_bannerstyle_float.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/migrations/0004_remove_bannerstyle_float.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/migrations/0005_bannerstyle_image_fit.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/migrations/0005_bannerstyle_image_fit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/migrations/0006_auto_20220806_1721.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/migrations/0006_auto_20220806_1721.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/templates/Sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/templates/Sample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banner_dj/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_banner/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\Project\Banner-dj\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CvUIo4zeCJ6y9D2f0v6Sf6HyPb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/Project/dj_banner",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Project\dj_banner\dj_banner\templates\dj_banner" />
+      <recent name="F:\Project\Banner-dj" />
+      <recent name="F:\Project\Banner-dj\static\assets\banner_dj\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f69904a-dda5-4207-9c43-de610f7f4c56" name="Default Changelist" comment="" />
+      <created>1659682477244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659682477244</updated>
+      <workItem from="1659682491723" duration="28000" />
+      <workItem from="1659683457553" duration="8166000" />
+      <workItem from="1659708095417" duration="19719000" />
+      <workItem from="1659769283960" duration="18851000" />
+      <workItem from="1659806876620" duration="798000" />
+      <workItem from="1659904123172" duration="217000" />
+      <workItem from="1659904350891" duration="14000" />
+      <workItem from="1659954910404" duration="17000" />
+      <workItem from="1660741343987" duration="155000" />
+      <workItem from="1660848730466" duration="805000" />
+      <workItem from="1748571429406" duration="303000" />
+      <workItem from="1748571738079" duration="117000" />
+      <workItem from="1748571874677" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1659730712401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659730712401" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1659688451354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659688451354" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1659730708173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1659730708173" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1659782465516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1659782465516" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1659721771702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1659721771702" />
+  </component>
+</project>
