@@ -1,0 +1,2 @@
+recursive-include dj_banner/static *
+recursive-include dj_banner/templates *

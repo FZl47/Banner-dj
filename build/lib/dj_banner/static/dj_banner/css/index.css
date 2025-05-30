@@ -1,0 +1,47 @@
+
+.banner-dj-el {
+    position: fixed;
+    text-align: center;
+    border-radius: 11px;
+    z-index: 999999;
+}
+
+.banner-dj-el > div {
+    position: relative;
+    /*border: 1px solid #f8f8f8;*/
+    border-radius: inherit;
+}
+
+.banner-dj-el button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: rgba(238, 238, 238, 0.5);
+    color: #ff0a00;
+    border: 1px solid rgba(94, 94, 94, 0.1);
+    width: 33px;
+    height: 33px;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.banner-dj-el img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    cursor: pointer;
+}
+
+.animation-class-hide-banner-dj {
+    animation: animation-hide-banner-dj .4s linear forwards;
+}
+
+@keyframes animation-hide-banner-dj {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
