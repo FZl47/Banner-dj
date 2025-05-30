@@ -22,7 +22,7 @@ function _Banner_dj_init() {
     let data = {
         'url': window.location.pathname
     }
-    fetch(`${BACKEND_URL_BANNER_DJ}/dj-banner`, {
+    fetch(`${DJ_BANNER_BACKEND_URL}/dj-banner`, {
         method: 'POST',
         body: JSON.stringify(data)
     }).then(function (response) {
@@ -100,7 +100,7 @@ function CREATE_BANNER_DJ(banner) {
     banner_element.innerHTML = `
         <div>
             <button title="close" onclick="HideBannerDJ('${banner.id}')">
-                <i class="fa fa-minus">&#xf068;</i>
+                <i class="fa">&minus;</i>
             </button>
             <img src="${banner.image}" alt="${banner.name}" title="${banner.name}" onclick="GoToUrlBanner('${banner.id}')" banner-id="${banner.id}" style="${style_image}">
             <a href="${banner.href}" target="_blank" hidden></a>
@@ -111,7 +111,7 @@ function CREATE_BANNER_DJ(banner) {
 }
 
 function GoToUrlBanner(banner_id) {
-    fetch(`${BACKEND_URL_BANNER_DJ}/dj-banner/click`, {
+    fetch(`${DJ_BANNER_BACKEND_URL}/dj-banner/click`, {
         method: 'POST',
         body: JSON.stringify({'banner_id': banner_id}),
     }).then(function (response) {

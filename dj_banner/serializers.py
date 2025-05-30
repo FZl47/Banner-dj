@@ -16,10 +16,10 @@ def BannerSerializer(banners):
     for banner in banners:
         if banner.is_available():
             result.append({
-                'id':banner.id,
-                'name':banner.name,
-                'image':banner.get_content(),
-                'href':banner.href,
+                'id': banner.id,
+                'name': banner.name,
+                'image': banner.get_content(),
+                'href': banner.href,
                 'style': BannerStyleSerializer(banner.style)
             })
 
